@@ -1,0 +1,104 @@
+body {
+    margin: 20px;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#navBar {
+    background-color: #fff7e6;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    background-color: #fff585;
+    padding: 15px;
+    border-radius: 25px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoApe {
+    width: 24px;
+    height: auto;
+}
+ul li:nth-child(3){
+    flex-basis: 25%;
+    font-size: 1.3em;
+}
+@media all and (max-width: 480px) {
+
+    ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+    li {
+        flex:none;
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card {
+    width: 50%;
+    height: auto;
+    background-color: #fff7e6;
+    border-radius: 20%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+.miele{
+    max-width: 100%;
+    object-fit: cover;
+}
+.text-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+button {
+    width: 50%;
+    height: 10%;
+    border: none;
+    border-radius: 35px;
+    background: #fff585;
+    margin-bottom: 30px;
+}
+#articolo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .imgArticolo {
+    flex: 0 1 200px; 
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container2 {
+    flex: 1 1 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
